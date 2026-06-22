@@ -24,20 +24,20 @@ A robust, web-based Library Management System built using PHP and MySQL to autom
 
 ---
 
-## 📂 Project Architecture
+## 🚀 Getting Started
 
+### 1. Database Setup
+1. Open your local database manager dashboard (like **XAMPP / phpMyAdmin**).
+2. Create a new database named exactly: `lms_db`.
+3. Select the database, click the **Import** tab, and select the `.sql` file from this project to build your tables.
+
+### 2. File Placement
+1. Move the entire project directory into your local server's web root folder:
+   * **Windows (XAMPP):** `C:/xampp/htdocs/`
+   * **Linux (LAMP):** `/var/www/html/`
+
+### 3. Server Initialization
+1. Turn on the **Apache** and **MySQL** modules using your XAMPP Control Panel.
+2. Open your preferred web browser and navigate directly to:
 ```text
-library-management-system/
-├── admin/                 # Admin operations dashboard panel
-│   ├── add-book.php       # Inventory entry handler
-│   ├── manage-issued.php  # Tracking for active rentals
-│   └── dashboard.php      # Analytics panel
-├── config/
-│   └── database.php       # PDO / MySQLi connection configurations
-├── includes/
-│   ├── header.php         # Navigation structural UI
-│   └── footer.php         
-├── database/
-│   └── lms_db.sql         # Raw database schema backup file
-├── index.php              # Main student login gateway interface
-└── dashboard.php          # Student account history layout
+   http://localhost/library-management-system/
