@@ -24,20 +24,3 @@ A robust, web-based Library Management System built using PHP and MySQL to autom
 
 ---
 
-## 📂 Project Architecture
-
-```text
-library-management-system/
-├── admin/                 # Admin operations dashboard panel
-│   ├── add-book.php       # Inventory entry handler
-│   ├── manage-issued.php  # Tracking for active rentals
-│   └── dashboard.php      # Analytics panel
-├── config/
-│   └── database.php       # PDO / MySQLi connection configurations
-├── includes/
-│   ├── header.php         # Navigation structural UI
-│   └── footer.php         
-├── database/
-│   └── lms_db.sql         # Raw database schema backup file
-├── index.php              # Main student login gateway interface
-└── dashboard.php          # Student account history layout
